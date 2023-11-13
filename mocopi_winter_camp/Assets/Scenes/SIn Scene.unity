@@ -2463,6 +2463,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleObject: {fileID: 1560077689970450180, guid: 625c44bfd220be84aa8b517d56c761e2, type: 3}
+  particleDirection: {x: 0, y: 0, z: 0}
 --- !u!1 &785609955 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6279115753470716398, guid: cccbbdb3cbdde464ba23dc13bf813538, type: 3}
@@ -3116,6 +3117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   particleObject: {fileID: 1560077689970450180, guid: 625c44bfd220be84aa8b517d56c761e2, type: 3}
+  particleDirection: {x: 0, y: 0, z: 0}
 --- !u!135 &959904299
 SphereCollider:
   m_ObjectHideFlags: 0
