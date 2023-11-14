@@ -22,11 +22,12 @@ public class Testcord : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        particleDirection = Quaternion.Euler(0, 90 * Time.deltaTime, 0) * particleDirection;
+        particleDirection = Quaternion.Euler(90 * Time.deltaTime, 90 * Time.deltaTime, 0) * particleDirection;
 
         var effect = Instantiate(particleObject);
         effect.transform.position = this.transform.position;
-        effect.transform.forward = particleDirection;
+        //effect.transform.forward = particleDirection;
+        effect.transform.rotation *= Quaternion.Euler(90 * Time.deltaTime, 90 * Time.deltaTime, 0);
         Destroy(effect, 1f);
     }
 }
